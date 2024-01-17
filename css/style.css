@@ -1,0 +1,133 @@
+body{
+    background-color: #272B30;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+/******************************************* navbar **************************************************/
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+}
+
+.navbar{
+    padding: 0px;
+    background-color: rgb(58, 73, 123) !important;
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+    font-family: 'Salsa', cursive;
+}
+
+.nav-link , .logo {
+    color: #fff !important;
+}
+
+.logo img{
+    margin-right: 5px ;
+
+}
+.logo h1{
+    font-size: 20px;
+}
+
+
+.nav-item .nav-link:hover , .nav-item .nav-link.active{
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+
+.nav-item .nav-link{
+    padding: 5px 15px !important;
+    font-size: 14px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+/********************************************************* games section *******************************************************/
+
+.gray-color {
+    background-color: #32383e;
+}
+
+.text-10{
+    font-size: .875em;;
+}
+
+#games .row .col .card .card-body h3{
+    font-size: .875em;
+    font-weight: 500;
+}
+
+#games .card .card-text{
+    height: 55px;
+}
+
+#games .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+}
+
+#games .card:hover{
+    filter: grayscale(0.0);
+    transform: scale(1.05,1.05);
+}
+
+/***********************************************************************************************************************/
+
+.details {
+    background-color: #272729be;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/***********************************************************************************************************************/
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+ .container {
+   width: 1320px;
+ }
+
+}
+
+@media screen and (max-width: 991.5px)
+{
+    .nav-item .nav-link:hover , .active{
+        border-color: transparent !important;
+        color: #009ad8 !important;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        background-color: #262936;
+        border-radius: 10px;
+
+    }
+    .nav-item .nav-link{
+        padding: 20px !important;
+    }
+    .nav-item 
+    {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}

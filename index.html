@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="shortcut icon" href="images/dice-d20-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navba">
+<section id="games">
+
+  <!--**************************** header *****************************-->
+  <header>
+    <img src="images/wraper.png" alt="game background" class="w-100">
+  </header>
+
+  <!--**************************** navbar *****************************-->
+ 
+    <nav>
+      <div class="container">
+        <div  class="navbar sticky-top navbar-expand-lg mb-5 mx-auto col-lg-9 col-md-6">
+
+
+        <div class="logo p-2">
+            <h1 class="navbar-brand mb-0 text-white fw-lighter d-inline-flex align-items-center">
+              <img src="images/logo-sm.png" alt="logo" width="40">
+              GAME REVIEWS
+            </h1>
+        </div>
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ms-2">
+            <a class="nav-link" aria-current="page" href="#">MMORPG</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">SHOOTER</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">SAILING</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">PERMADEATH</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">SUPERHERO</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">PIXEL</a>
+          </li>             
+        </ul>
+      </div>
+        </div>
+      </div>
+  </nav>
+  </div>
+
+  <!--**************************** games *****************************-->
+  <div id="games">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <!-- <div class="col">
+          <div class="card p-3 bg-transparent pb-0" >
+            <img src="images/thumbnail.jpg" class="w-100" alt="post">
+            <div class="card-body pb-0 px-0 text-white">
+              <div class="d-flex justify-content-between">
+                <h3>
+                  Diablo Immortal
+                </h3>
+                <span class="badge text-bg-primary p-2">Free</span>
+              </div>
+              <p class="card-text opacity-50 text-10">Built,for,mobile,and,also,released,on,PC,</p>
+              <div class="card-footer d-flex justify-content-between px-0 text-10">
+                <span class="badge gray-color">MMOARPG</span>
+                <span class="badge gray-color">PC (Windows)</span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="details d-none" id="details">
+  <div class="container">
+     <header class="hstack justify-content-between">
+        <h1 class="text-center h3 py-4">Details Game</h1>
+        <button class="btn-close btn-close-white" id="btnClose"></button>
+     </header>
+     <div class="row g-4" id="detailsContent">
+
+      </div>
+    </div>
+</section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/ui.js"></script>
+</body>
+</html>
